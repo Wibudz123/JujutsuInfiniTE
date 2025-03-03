@@ -1959,7 +1959,7 @@ function SendMessageEMBED(url, embed)
         ["Content-Type"] = "application/json"
     }
     local data = {
-        ["username"] = "Sterling Hub",
+        ["username"] = "ServiceGame",
         ["avatar_url"] = "https://imgur.com/5EKp1dm.png",
         ["embeds"] = {
             {
