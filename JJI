@@ -6,7 +6,7 @@ local userId = game.Players.LocalPlayer.UserId
 --local blacklist = {1131586622, 1225643250, 1918988070}
 --for _, id in pairs(blacklist) do
 --    if userId == id then
---       game.Players.LocalPlayer:Kick("Access revoked from using Sterling Hub.")
+--       game.Players.LocalPlayer:Kick("Access revoked from using ServiceGame.")
 --    end
 --end
 -- Default configuration
@@ -64,22 +64,22 @@ loadConfig()
 
 
 local Window = Luna:CreateWindow({
-    Name = "Sterling Hub",
+    Name = "ServiceGame",
     Subtitle = nil,
     LogoID = "90804827107744",
     LoadingEnabled = true,
     LoadingTitle = "patiu was here",
-    LoadingSubtitle = "by DAN",
+    LoadingSubtitle = "by Wibu",
 
     ConfigSettings = {
 		RootFolder = nil, 
-		ConfigFolder = "Sterling Hub" 
+		ConfigFolder = "ServiceGame" 
     },
 })
 
 Window:CreateHomeTab({
 	SupportedExecutors = {}, -- A Table Of Executors Your Script Supports. Add strings of the executor names for each executor.
-	DiscordInvite = "25ms",
+	DiscordInvite = "Wibu",
 	Icon = 1, -- By Default, The Icon Is The Home Icon. If You would like to change it to dashboard, replace the interger with 2
 })
 
@@ -1964,7 +1964,7 @@ function SendMessageEMBED(url, embed)
         ["embeds"] = {
             {
                 ["title"] = embed.title,
-                ["url"] = "https://discord.gg/25ms",
+                ["url"] = "https://discord.gg/gtQ54c43G3",
                 ["description"] = embed.description,
                 ["color"] = embed.color,
                 ["fields"] = embed.fields,
@@ -2005,7 +2005,7 @@ for _, item in pairs(workspace.Objects.Drops:GetChildren()) do
                     }
                 },
                 ["footer"] = {
-                    ["text"] = "https://discord.gg/25ms"
+                    ["text"] = "https://discord.gg/gtQ54c43G3"
                 }
             }
             SendMessageEMBED(url, embed)
