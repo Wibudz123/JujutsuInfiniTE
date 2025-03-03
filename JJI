@@ -68,7 +68,7 @@ local Window = Luna:CreateWindow({
     Subtitle = nil,
     LogoID = "90804827107744",
     LoadingEnabled = true,
-    LoadingTitle = "patiu was here",
+    LoadingTitle = "Wibu was here",
     LoadingSubtitle = "by Wibu",
 
     ConfigSettings = {
